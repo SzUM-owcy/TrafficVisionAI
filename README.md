@@ -11,7 +11,7 @@ The system is designed to support applications in **traffic monitoring**, **road
 This project was developed as part of an academic collaboration by [Krzysztof Nazar](https://github.com/Danzigerrr) and [Hubert Nacmer](https://github.com/RicoPsych).
 
 **Figure 1. Sample prediction of the final YOLOv5s model**
-![fig:sample-predictions-final-model](readme_images\sample-predictions-final-model.png)
+![fig:sample-predictions-final-model](readme_images/sample-predictions-final-model.png)
 
 ## 🗂️ Dataset
 
@@ -43,13 +43,13 @@ To improve model robustness, extensive augmentation techniques were applied usin
 * Blur augmentation
 
 **Figure 3. Sample image after augmentation (brightness/contrast/blur)**
-![fig:augmentation-example-basic](readme_images\augmentation%20example.png)
+![fig:augmentation-example-basic](readme_images/augmentation%20example.png)
 
 
 Additionally, a [Flip Mosaic](https://www.mdpi.com/2071-1050/14/19/12274) technique was integrated to enrich image composition.
 
 **Figure 4. Sample image after augmentation (Flip Mosaic)**
-![fig:augmentation-example-flip-mosaic](readme_images\mosaic%20augmentation-example.png)
+![fig:augmentation-example-flip-mosaic](readme_images/mosaic%20augmentation-example.png)
 
 Source of the image: *Zhang Y, Guo Z, Wu J, Tian Y, Tang H, Guo X. Real-Time Vehicle Detection Based on Improved YOLO v5. Sustainability. 2022; 14(19):12274. https://doi.org/10.3390/su141912274 (https://www.mdpi.com/2071-1050/14/19/12274)*
 
@@ -79,11 +79,11 @@ After all augmentations and hyperparameter optimization:
 These results demonstrate strong model performance and generalisation across diverse traffic scenes.
 
 **Figure 5. Confusion Matrix of model with mosaic augmentation using test split.**
-![fig:Confusion Matrix of model with mosaic augmentation using test split](readme_images\confusion%20matrix.png)
+![fig:Confusion Matrix of model with mosaic augmentation using test split](readme_images/confusion%20matrix.png)
 
 
 **Figure 6. PR Curve of model with mosaic augmentation using test split.**
-![fig:augmentation-example-flip-mosaic](readme_images\PR%20curve.png)
+![fig:augmentation-example-flip-mosaic](readme_images/PR%20curve.png)
 
 
 ## 🏋️ Key Achievements
